@@ -16,7 +16,7 @@ make the code a bit more accessible to Python users,
 and allows us to use Python objects when programmatically generating queries.
 
 <hr>
-⚠️ <b>For some reason (that I have yet to investigate), Binder is installing v2.1.1.  The Ibis notebook requires 3.0.0+ to run successfully.</b>
+⚠️ <b>8 June 2022</b>: I was having trouble getting Binder to pull v3.0.2, so the Ibis notebook does not work, as it requires the `.materialize()` change introduced in 3.0.0.
 <hr>
 
 Try it with Binder:
