@@ -15,10 +15,6 @@ By performing type and reference checks in-line, we can easily find bugs and err
 make the code a bit more accessible to Python users,
 and allows us to use Python objects when programmatically generating queries.
 
-<hr>
-⚠️ <b>8 June 2022</b>: I was having trouble getting Binder to pull v3.0.2, so the Ibis notebook does not work, as it requires the `.materialize()` change introduced in 3.0.0.
-<hr>
-
 Try it with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/p-a-a-a-trick/ibis-sales-query/HEAD)
