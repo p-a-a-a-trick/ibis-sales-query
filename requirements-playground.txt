@@ -1,0 +1,4 @@
+wheel
+sqlalchemy
+ibis-framework[sqlite]
+jupyterlab
