@@ -1,0 +1,6 @@
+name: ibis-sales-query
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - ibis-framework[sqlite]>=3.0.0
