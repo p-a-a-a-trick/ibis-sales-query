@@ -1,5 +1,5 @@
 # ibis-sales-query
-Example Sales Data Query using Ibis Expressions (with complimentary fString Representations)
+Building a Sales Data Query using Ibis Expressions (with complimentary fString Representations)
 
 This repository contains:
 
