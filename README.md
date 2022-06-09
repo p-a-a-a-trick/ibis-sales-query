@@ -15,6 +15,11 @@ By performing type and reference checks in-line, we can easily find bugs and err
 make the code a bit more accessible to Python users,
 and allows us to use Python objects when programmatically generating queries.
 
+Ibis also directly uses python objects.  With fStrings, a user will need to convert those objects to engine-readable strings
+(e.g. converting a string value to a string within a string, or a list of integers to a comma-delimited list of integers within a string).
+This process gets very painful as conversions between objects and strings occur, so being able to directly use these objects
+using Ibis expressions helps a ton.
+
 Try it with Binder:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/p-a-a-a-trick/ibis-sales-query/HEAD)
